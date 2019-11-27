@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 my foodlist
+  ul
+  each element in foods
+    li=element.type+": "+element.name

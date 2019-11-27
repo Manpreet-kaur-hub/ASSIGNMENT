@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 My Booklist
+  br
+  br
+  ul
+  each element in book
+    li=element.title+": "+element.author
